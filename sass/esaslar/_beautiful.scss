@@ -1,0 +1,53 @@
+#beautiful{
+    padding: 230px 0px;
+    background-image: url(../img/hero1.jpg);
+    top: 0;
+    height: 750px;
+    #beautiful-img{
+        position: absolute;
+        left: 220px;
+        bottom: 10px;
+        width: 335px;
+    }
+    .beautful-text{
+        color: $text-color-white;
+        font-size: 1.8em;
+        line-height: 1.6em;
+       
+    }
+    .btn{
+        position: absolute;
+        top: 50px;
+        right: 450px;
+        font-family: $font-f;
+        border-radius: 100px;
+        border-color: #425cbb;
+        background-color: #425cbb ;
+        span{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+            font-weight: 600;
+        }
+    }
+    .list-items{
+        position: absolute;
+        top: 290px;
+        left: 415px;
+        li{
+            margin-right: 45px;
+            a{
+               
+                i{
+                    font-size: 30px;
+                    color: rgb(177, 173, 173);
+                    &:hover{
+                        translate: "";
+                        color: $text-color-white;
+                    }
+                }
+            }
+        }
+    }
+}

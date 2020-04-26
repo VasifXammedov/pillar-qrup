@@ -1,0 +1,41 @@
+#bashliq{
+    .navbar{
+        .bashliq-nav{
+            a{
+                i{
+                    margin-left: 40px;
+                    font-size: 15px;
+                    color: $text-color-white;
+                    &:hover{
+                        translate: "";
+                        color: rgb(177, 173, 173);
+                    }
+                }
+            }
+        }
+        .navbar-brand{
+            width: 100px;
+            display: inline-block;
+            img{
+                width: 80px;
+                height: 30px;
+            }
+        }
+    }
+  
+   .collapse{
+
+        .navbar-nav{
+            padding: 10px 0;
+            .nav-item{
+                .nav-link{
+                    font-size: 15px;
+                    font-weight: 400;
+                    font-family: $font-f;
+                    color: $text-color-white;
+                }
+            }
+
+        }
+   }
+}

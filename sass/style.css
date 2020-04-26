@@ -1,2 +1,110 @@
-@impo;
+#bashliq .navbar .bashliq-nav a i {
+  margin-left: 40px;
+  font-size: 15px;
+  color: #fff;
+}
+
+#bashliq .navbar .bashliq-nav a i:hover {
+  translate: "";
+  color: #b1adad;
+}
+
+#bashliq .navbar .navbar-brand {
+  width: 100px;
+  display: inline-block;
+}
+
+#bashliq .navbar .navbar-brand img {
+  width: 80px;
+  height: 30px;
+}
+
+#bashliq .collapse .navbar-nav {
+  padding: 10px 0;
+}
+
+#bashliq .collapse .navbar-nav .nav-item .nav-link {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  color: #fff;
+}
+
+#beautiful {
+  padding: 230px 0px;
+  background-image: url(../img/hero1.jpg);
+  top: 0;
+  height: 750px;
+}
+
+#beautiful #beautiful-img {
+  position: absolute;
+  left: 220px;
+  bottom: 10px;
+  width: 335px;
+}
+
+#beautiful .beautful-text {
+  color: #fff;
+  font-size: 1.8em;
+  line-height: 1.6em;
+}
+
+#beautiful .btn {
+  position: absolute;
+  top: 50px;
+  right: 450px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  border-radius: 100px;
+  border-color: #425cbb;
+  background-color: #425cbb;
+}
+
+#beautiful .btn span {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+#beautiful .list-items {
+  position: absolute;
+  top: 290px;
+  left: 415px;
+}
+
+#beautiful .list-items li {
+  margin-right: 45px;
+}
+
+#beautiful .list-items li a i {
+  font-size: 30px;
+  color: #b1adad;
+}
+
+#beautiful .list-items li a i:hover {
+  translate: "";
+  color: #fff;
+}
+
+#digital {
+  padding: 100px 0;
+}
+
+#digital .digital-col h3 {
+  font-weight: 600;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  color: #343434;
+}
+
+#digital .digital-col p {
+  color: #767676;
+  font-family: "Lora", "Helvetica", "Arial", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  font-weight: 400;
+}
 /*# sourceMappingURL=style.css.map */
