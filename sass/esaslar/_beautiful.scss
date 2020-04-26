@@ -38,12 +38,13 @@
         li{
             margin-right: 45px;
             a{
-               
+            //    width: 600px;
+            //    height: 450px;
                 i{
                     font-size: 30px;
                     color: rgb(177, 173, 173);
                     &:hover{
-                        translate: "";
+                        content: "";
                         color: $text-color-white;
                     }
                 }
