@@ -1,0 +1,42 @@
+#good{
+    padding: 100px 0;
+    a{
+        text-decoration: none;
+        color: #232323;
+        .card{
+            img{
+
+            }
+            .card-body{
+                .card-title{
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 10px;
+                    margin-bottom: 21px;
+                }
+                .card-text{
+                    font-weight: 300;
+                    margin-bottom: 41px;
+                }
+                
+                 span{
+                    font-size: 0.625em;
+                    font-style: italic;
+                     display: inline-block;
+                    color: #767676;
+                 }
+                 h6{
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 10px;
+                 }
+            
+                
+            }
+        }
+    }
+}

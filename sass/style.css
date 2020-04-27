@@ -393,4 +393,42 @@
   line-height: 1.7em;
   font-weight: 400;
 }
+
+#good {
+  padding: 100px 0;
+}
+
+#good a {
+  text-decoration: none;
+  color: #232323;
+}
+
+#good a .card .card-body .card-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  margin-bottom: 21px;
+}
+
+#good a .card .card-body .card-text {
+  font-weight: 300;
+  margin-bottom: 41px;
+}
+
+#good a .card .card-body span {
+  font-size: 0.625em;
+  font-style: italic;
+  display: inline-block;
+  color: #767676;
+}
+
+#good a .card .card-body h6 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+}
 /*# sourceMappingURL=style.css.map */
