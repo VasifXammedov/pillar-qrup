@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,OAAO,EAAE,OAAO;EAChB,KAAK,EAAE,OAAO;CAmBjB;;AArBD,AAOQ,MAPF,CAMF,WAAW,CACP,CAAC,CAAA;EACG,SAAS,EAAE,QAAQ;EACnB,WAAW,EAAE,kBAAkB;EAC/B,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,iBAAiB;EAChC,KAAK,EAAE,gBAAgB;CAC1B",
+    "mappings": "",
     "sources": [
         "level.scss"
     ],

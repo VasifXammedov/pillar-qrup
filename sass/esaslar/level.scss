@@ -1,4 +1,6 @@
+
 #level{
+    padding: 100px 0;
     position: relative;
     overflow: hidden;
     padding-bottom: 0;
@@ -11,28 +13,26 @@
         bottom: -78px;
         background: #F4F4F4;
     }
-   
-        .level-text{
-            margin-top: 190px;
-            p{
-                font-size: 21px;
-                line-height: 40px;
-                font-style: italic;
-                margin-bottom: 50px;
-                color:$paraqraf-color;
-            };
-            h5{
-                font-family: $font-f;
-                color: $helper-color;
-                font-weight: $helper-font-weight;
-                margin-bottom: -10px;
-            }
-            h6{
-                text-transform: uppercase;
-                letter-spacing: 1px;
-                font-weight: $paraqraf-font-weight;
-                font-size: 10px;
-                line-height: 15px;
-            }
+    .level-text{
+      margin-top: 190px;
+      p{
+        font-size: 21px;
+        line-height: 40px;
+        font-style: italic;
+        margin-bottom: 50px;
+        color: $paraqraf-color;
+      };
+      h5{
+        font-family: $font-f;
+        color: $helper-color;
+        font-weight: $helper-font-weight;
+      }
+      h6{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
         }
+    }
 }
