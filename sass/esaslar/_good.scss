@@ -39,4 +39,30 @@
             }
         }
     }
+    .btn{
+        margin-top: 60px;
+        font-family: $font-f;
+        border-color: $paraqraf-color;
+        border-radius: 100px;
+        padding-top: 9px;
+        padding-bottom: 11px;
+        padding-right: 50px;
+        padding-left: 50px;
+        border: 1px solid $paraqraf-color;
+        border-width: 2px;
+        font-size: inherit;
+        line-height: 25px;
+        text-transform: uppercase;
+        &:hover{
+            border-color: black;
+        }
+        .btn-text{
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 10px;
+            
+        }
+    }
 }
