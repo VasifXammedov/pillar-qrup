@@ -1,0 +1,38 @@
+#level{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 0;
+    &::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        bottom: -78px;
+        background: #F4F4F4;
+    }
+   
+        .level-text{
+            margin-top: 190px;
+            p{
+                font-size: 21px;
+                line-height: 40px;
+                font-style: italic;
+                margin-bottom: 50px;
+                color:$paraqraf-color;
+            };
+            h5{
+                font-family: $font-f;
+                color: $helper-color;
+                font-weight: $helper-font-weight;
+                margin-bottom: -10px;
+            }
+            h6{
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: $paraqraf-font-weight;
+                font-size: 10px;
+                line-height: 15px;
+            }
+        }
+}

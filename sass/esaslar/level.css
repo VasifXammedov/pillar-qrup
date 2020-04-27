@@ -1,0 +1,13 @@
+#level {
+  padding: 100px 0;
+  color: #f4f4f4;
+}
+
+#level .level-text p {
+  font-size: 1.4375em;
+  line-height: 1.69565217391304em;
+  font-style: italic;
+  margin-bottom: 1.1304347826087em;
+  color: text-color-white;
+}
+/*# sourceMappingURL=level.css.map */
