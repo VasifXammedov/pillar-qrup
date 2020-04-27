@@ -296,4 +296,38 @@
   line-height: 1.7em;
   font-weight: 400;
 }
+
+#user {
+  padding: 100px 0;
+}
+
+#user .user1 {
+  padding: 20px;
+  width: 50%;
+}
+
+#user .user1 .user3_left {
+  float: left;
+  margin-right: 27px;
+}
+
+#user .user1 .user3_left i {
+  font-size: 43px;
+  color: #425cbb;
+}
+
+#user .user1 .user4_right {
+  float: left;
+}
+
+#user .user1 .user4_right h6 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-bottom: 2.36363636363636em;
+}
+
+#user .user1 .user4_right p {
+  color: #767676;
+}
 /*# sourceMappingURL=style.css.map */
