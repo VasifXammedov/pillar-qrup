@@ -459,4 +459,49 @@
   font-size: 10px;
   line-height: 10px;
 }
+
+#inter {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#inter .inter-text {
+  margin: 5px;
+}
+
+#inter .inter-text .text {
+  display: inline-block;
+  left: 212px;
+  color: white;
+  font-size: 500;
+}
+
+#inter .inter-text .btn {
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  /* border-color: #767676; */
+  border-radius: 100px;
+  padding-top: 20px;
+  padding-bottom: 17px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border: 1px solid #767676;
+  border-width: 2px;
+  font-size: inherit;
+  /* line-height: 30px; */
+  /* text-transform: uppercase; */
+  margin-left: 26px;
+}
+
+#inter .inter-text .btn:hover {
+  border-color: black;
+}
+
+#inter .inter-text .btn-text {
+  float: right;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+}
 /*# sourceMappingURL=style.css.map */
