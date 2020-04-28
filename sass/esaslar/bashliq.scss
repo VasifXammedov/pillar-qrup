@@ -7,7 +7,7 @@
                     font-size: 15px;
                     color: $text-color-white;
                     &:hover{
-                        translate: "";
+                    
                         color: rgb(177, 173, 173);
                     }
                 }
@@ -33,6 +33,9 @@
                     font-weight: 400;
                     font-family: $font-f;
                     color: $text-color-white;
+                    &:hover{
+                        color: $paraqraf-color;
+                    }
                 }
             }
 
