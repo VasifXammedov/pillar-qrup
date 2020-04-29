@@ -824,4 +824,124 @@
   line-height: 10px;
   color: #fff;
 }
+
+#let {
+  padding: 180px 0px;
+  background-image: url(../img/hero9.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  height: 70vh;
+}
+
+#let::before {
+  position: absolute;
+  content: '';
+  background: #232323;
+  width: 100%;
+  height: 70vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+#let .digital-col {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+
+#let .digital-col h3 {
+  font-weight: 600;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  color: #fff;
+}
+
+#let .digital-col p {
+  color: #fff;
+  font-family: "Lora", "Helvetica", "Arial", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  font-weight: 500;
+}
+
+#drop .drop-1 {
+  height: 100%;
+}
+
+#drop .drop-1 i {
+  font-size: 64px;
+  margin-top: 100px;
+}
+
+#drop .drop-1 h4 {
+  padding: 15px 0 25px 0px;
+  font-size: 1.4375em;
+  line-height: 1.41304348em;
+  font-weight: 900;
+}
+
+#drop .drop-1 p {
+  color: #767676;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 100px;
+  font-weight: 500;
+}
+
+#drop .drop-2 {
+  background: #f4f4f4;
+  height: 100%;
+}
+
+#drop .drop-2 i {
+  font-size: 64px;
+  margin-top: 100px;
+}
+
+#drop .drop-2 h4 {
+  padding: 15px 0 25px 0px;
+  font-size: 1.4375em;
+  line-height: 1.41304348em;
+  font-weight: 900;
+}
+
+#drop .drop-2 p {
+  color: #767676;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 100px;
+  font-weight: 500;
+}
+
+#drop .drop-3 {
+  background: #232323;
+  height: 100%;
+}
+
+#drop .drop-3 i {
+  font-size: 64px;
+  margin-top: 100px;
+  color: #fff;
+}
+
+#drop .drop-3 h4 {
+  padding: 15px 0 25px 0px;
+  font-size: 1.4375em;
+  line-height: 1.41304348em;
+  font-weight: 900;
+  color: #fff;
+}
+
+#drop .drop-3 p {
+  color: #fff;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 100px;
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */
