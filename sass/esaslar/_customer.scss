@@ -1,8 +1,9 @@
 #customer{
     padding: 100px 0px;
     background-image: url(../img/hero/hero2.jpg);
-    // top: 0;
-    // height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     .customer-1{
         i{
             font-size: 4em;

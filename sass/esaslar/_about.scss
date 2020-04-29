@@ -1,6 +1,9 @@
 #hacker{
-    padding: 230px 0px;
+    padding: 180px 0px;
     background-image: url(../img/hero5.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     top: 0;
     height: 70vh;
     .digital-col{
@@ -16,7 +19,50 @@
          font-family: $paraqraf-font-family;
          font-size: $paraqraf-font-size;
          line-height: $paraqraf-line-height;
-         font-weight: $paraqraf-font-weight;
+         font-weight: 500;
         }
      }
+}
+
+#full{
+    padding: 100px 0;
+    position: relative;
+    bottom: 200px;
+    .card{
+       
+        .card__icon{
+            background: #f4f4f4;
+            padding: 78px 0;
+            text-align: center;
+            i{
+                font-size: 64px;
+                text-align: center;
+            }
+        }
+        .card__body{
+            position: relative;
+            overflow: hidden;
+            padding: 39px;
+            background: $text-color-white;
+            .card__title{
+                margin-bottom: 13px;
+                line-height: 26px;
+                font-size: 16px;
+                h5{
+                    font-size: 16px;
+                    line-height: 26px;
+                    font-family: $font-f;
+                    font-weight: 600;
+                    color: #232323;
+                }
+            }
+            p{
+                margin-top: 26px;
+                color: $paraqraf-color;
+                margin-bottom: 26px;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
 }
