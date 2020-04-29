@@ -46,8 +46,8 @@
         }
         h4{
             padding: 15px 0 25px 0px;
-            font-size: 1.4375em;
-            line-height: 1.41304348em;
+            font-size: 23px;
+            line-height: 22px;
             font-weight: 900;
         }
         p{
@@ -67,8 +67,8 @@
         }
         h4{
             padding: 15px 0 25px 0px;
-            font-size: 1.4375em;
-            line-height: 1.41304348em;
+            font-size: 23px;
+            line-height: 22px;
             font-weight: 900;
         }
         p{
@@ -90,8 +90,8 @@
         }
         h4{
             padding: 15px 0 25px 0px;
-            font-size: 1.4375em;
-            line-height: 1.41304348em;
+            font-size: 23px;
+            line-height: 22px;
             font-weight: 900;
             color: $text-color-white;
         }
@@ -105,3 +105,103 @@
     }
    
 }
+
+#here{
+    background: #f4f4f4;
+    padding: 100px 0;
+    h4{
+        font-weight: 700;
+    }
+    .name{
+        i{
+            position: absolute;
+            top: 17px;
+            left: 40px;
+            font-size: 20px;
+            color: $paraqraf-color;
+        }
+        input{
+            border: none;
+            padding-left: 65px;
+            width: 100%;
+            border-radius: 5px;
+            height: 50px;
+            line-height: inherit;
+            font-family: $paraqraf-font-family;
+            // width: 370px;
+        }
+    }
+    .name-1{
+        i{
+            position: absolute;
+            top: 17px;
+            left: 40px;
+            font-size: 20px;
+            color: $paraqraf-color;
+        }
+        input{
+            border: none;
+            padding-left: 65px;
+            width: 100%;
+            border-radius: 5px;
+            height: 50px;
+            line-height: inherit;
+            font-family: $paraqraf-font-family;
+            // width: 370px;
+        }
+    }
+    .name-2{
+        i{
+            position: absolute;
+            top: 17px;
+            left: 40px;
+            font-size: 20px;
+            color: $paraqraf-color;
+        }
+        input{
+            border: none;
+            padding-left: 65px;
+            width: 100%;
+            border-radius: 5px;
+            height: 50px;
+            line-height: inherit;
+            font-family: $paraqraf-font-family;
+            width: 370px;
+        }
+    }
+    .name-3{
+        .name-4{
+            border: none;
+            padding-left: 15px;
+            padding-top: 10px;
+            border-radius: 5px;
+            height: 180px;
+            line-height: inherit;
+            font-family: $paraqraf-font-family;
+            width: 730px;
+        }
+        
+    }
+    .name-5{
+        background-color: #425cbb;
+        width: 731px;
+        height: 50px;
+        border-radius: 5px;
+        border:#425cbb ;
+        &:hover{
+            border:#425cbb ;
+            background-color:#546ecc ;
+
+        }
+        p{
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 10px;
+            padding-top: 10px
+        }
+    }
+}
+

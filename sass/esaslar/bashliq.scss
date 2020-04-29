@@ -2,10 +2,11 @@
     .navbar{
         .bashliq-nav{
             a{
+
                 i{
                     margin-left: 40px;
                     font-size: 15px;
-                    color: $text-color-white;
+                    color:#fff;
                     &:hover{
                     
                         color: rgb(177, 173, 173);
@@ -31,14 +32,21 @@
                 .nav-link{
                     font-size: 15px;
                     font-weight: 400;
-                    font-family: $font-f;
-                    color: $text-color-white;
+                    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+                    color: #fff;
                     &:hover{
-                        color: $paraqraf-color;
+                        color:  #767676;
                     }
                 }
             }
 
         }
    }
+}
+
+.scrolled{
+    top: 0;
+    transition: all 0.5s;
+    background-color: white;
+    color:black;
 }
