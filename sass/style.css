@@ -34,7 +34,8 @@
 }
 
 #beautiful {
-  padding: 230px 0px;
+  position: relative;
+  padding: 220px 0px;
   background-image: url(../img/hero1.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -43,27 +44,45 @@
   height: 750px;
 }
 
+#beautiful::before {
+  position: absolute;
+  content: '';
+  background: #232323;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.3;
+}
+
 #beautiful #beautiful-img {
   position: absolute;
   left: 220px;
   bottom: 10px;
   width: 335px;
+  top: 10px;
+  z-index: 2;
 }
 
 #beautiful .beautful-text {
+  position: absolute;
   color: #fff;
-  font-size: 1.8em;
-  line-height: 1.6em;
+  font-size: 26px;
+  line-height: 44px;
+  top: 46px;
+  z-index: 8;
 }
 
 #beautiful .btn {
   position: absolute;
-  top: 50px;
+  top: 190px;
   right: 450px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   border-radius: 100px;
   border-color: #425cbb;
   background-color: #425cbb;
+  z-index: 4;
 }
 
 #beautiful .btn span {
@@ -72,15 +91,18 @@
   padding-right: 10px;
   padding-left: 10px;
   font-weight: 600;
+  z-index: 5;
 }
 
 #beautiful .list-items {
   position: absolute;
-  top: 290px;
+  top: 410px;
   left: 415px;
+  z-index: 6;
 }
 
 #beautiful .list-items li {
+  z-index: 7;
   margin-right: 45px;
 }
 
@@ -267,6 +289,25 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  position: relative;
+  height: 450px;
+}
+
+#customer::before {
+  position: absolute;
+  content: '';
+  background: #232323;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+#customer .customer-1 {
+  z-index: 2;
+  position: absolute;
 }
 
 #customer .customer-1 i {
@@ -635,6 +676,24 @@
   height: 70vh;
 }
 
+#hacker::before {
+  position: absolute;
+  content: '';
+  background: #232323;
+  width: 100%;
+  height: 70%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+#hacker .digital-col {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+
 #hacker .digital-col h3 {
   font-weight: 600;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
@@ -655,6 +714,7 @@
   padding: 100px 0;
   position: relative;
   bottom: 200px;
+  z-index: 3;
 }
 
 #full .card .card__icon {
@@ -698,6 +758,7 @@
 }
 
 #business {
+  position: relative;
   background-image: url(../img/hero8.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -705,7 +766,20 @@
   height: 50vh;
 }
 
+#business::before {
+  position: absolute;
+  content: '';
+  background: #232323;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.4;
+}
+
 #business h4 {
+  position: absolute;
   font-weight: 500;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 2em;
@@ -713,9 +787,13 @@
   color: #fff;
   margin-top: 90px;
   margin-bottom: 30px;
+  left: 206px;
+  top: 10px;
+  z-index: 2;
 }
 
 #business .btn {
+  position: absolute;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   border-radius: 100px;
   padding-top: 20px;
@@ -727,6 +805,9 @@
   font-size: inherit;
   margin-left: 26px;
   background-color: #425cbb;
+  top: 180px;
+  right: 360px;
+  z-index: 3;
 }
 
 #business .btn:hover {
