@@ -66,3 +66,51 @@
         }
     }
 }
+#business{
+    // padding: 100px 0px;
+    background-image: url(../img/hero8.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    h4{
+        font-weight: 500;
+        font-family: $font-f;
+        font-size: $helper-font-size;
+        line-height: $helper-line-height;
+        color: $text-color-white;
+        margin-top: 90px;
+        margin-bottom: 30px;
+    }
+    .btn{
+        font-family: $font-f;
+        border-radius: 100px;
+        padding-top: 20px;
+        padding-bottom: 17px;
+        padding-right: 40px;
+        padding-left: 40px;
+        border: 1px solid #425cbb;
+        border-width: 2px;
+        font-size: inherit;
+        margin-left: 26px;
+        background-color: #425cbb;
+            &:hover{
+                background-color:#007bff;
+                border-color: #007bff;
+            }
+        .btn-text{
+            float: right;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+             font-weight: 400;
+             font-size: 10px;
+            line-height: 10px;
+            color: $text-color-white;
+
+        }
+
+    }
+}   
+
+    
+    
