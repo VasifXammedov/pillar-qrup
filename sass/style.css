@@ -37,7 +37,7 @@
   top: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  background-color: white;
+  background-color: black;
   color: black;
 }
 
@@ -120,7 +120,6 @@
 }
 
 #beautiful .list-items li a i:hover {
-  content: "";
   color: #fff;
 }
 
@@ -1167,9 +1166,72 @@ body {
   text-decoration: line-through;
 }
 
-#bags .reqemler ul {
+#bags .reqemler a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding-top: 4px;
+  border-radius: 50%;
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  color: #343434;
+  font-size: 10px;
+  line-height: 41px;
+  margin-bottom: 38px;
+}
+
+#bags .reqemler a:hover {
+  background-color: #c7c7c7;
+}
+
+#login {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#login .sonuncu {
+  padding: 100px 0;
+  background-image: url(../img/hero/hero13.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  margin-left: -17px;
+}
+
+#login .telefon {
   text-align: center;
-  padding: 40px;
-  letter-spacing: 0.2px;
+  position: relative;
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+#login .telefon img {
+  max-height: 3.25em;
+}
+
+#login .telefon p {
+  color: #343434;
+  right: 20px;
+  top: 15px;
+  padding: 5px;
+  font-family: 800;
+  font-style: italic;
+}
+
+#login .telefon button {
+  width: 243px;
+  border-radius: 100px;
+  border: 1px solid #232323;
+  border-color: #425CBB;
+  background-color: #425cbb;
+  height: 51px;
+}
+
+#login .telefon .form-group input {
+  border-radius: 100px;
 }
 /*# sourceMappingURL=style.css.map */
