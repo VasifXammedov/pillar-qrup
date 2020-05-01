@@ -2,7 +2,6 @@
     .navbar{
         .bashliq-nav{
             a{
-
                 i{
                     margin-left: 40px;
                     font-size: 15px;
@@ -33,7 +32,7 @@
                     font-size: 15px;
                     font-weight: 400;
                     font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
-                    color: #fff;
+                    color: white;
                     &:hover{
                         color:  #767676;
                     }
@@ -47,6 +46,6 @@
 .scrolled{
     top: 0;
     transition: all 0.5s;
-    background-color:black;
+    background-color:white;
     color:black;
 }

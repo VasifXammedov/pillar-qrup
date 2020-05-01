@@ -1,6 +1,7 @@
 #login{
     position: relative;
     display: flex;
+    // top: 110px;
     .sonuncu{
         padding: 100px 0;
         background-image: url(../img/hero/hero13.jpg);
@@ -42,4 +43,24 @@
            }
         }
     }
+}
+
+#bashliq .navbar.navbarlogin {
+    top: 45px;
+
+    background-color: white;
+}
+
+#bashliq .collapse .navbar-nav .nav-item .nav-link.nav-login {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    color: black;
+}
+
+
+#bashliq .navbar .bashliq-nav a i.logini {
+    margin-left: 40px;
+    font-size: 15px;
+    color: black;
 }

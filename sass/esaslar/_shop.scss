@@ -2,95 +2,97 @@ body{
     background-color: #f8f8f8;
 }
 
-// #navstart{
-//     position: relative;
-//     padding: 12px 0;
-//     background-color: rosybrown;
-//     .nav-list{
-//         list-style-type: none;
-//         font-size: 13px;
-//         .nav-list-item{
-//             display: inline;
-//             margin-left: 10px;
+#navstart{
+    position: relative;
+    padding: 12px 0;
+    background-color: #f4f4f4;
+    .nav-list{
+        list-style-type: none;
+        font-size: 13px;
+        .nav-list-item{
+            display: inline;
+            margin-left: 10px;
            
             
-//             span{
-//                 font-family: $paraqraf-font-family;
-//             }
-//         }
-//     }
-//     .list-items{
-//         position: absolute;
-//         left: 400px;
-//         z-index: 6;
-//         li{
-//            z-index: 7;
-//             margin-right: 45px;
-//             color: #6c757d;
-//             &:hover{
-//                 color: black;
-//             }
-//             a{
+            span{
+                font-family: $paraqraf-font-family;
+            }
+        }
+    }
+    .list-items{
+        position: absolute;
+        left: 400px;
+        z-index: 6;
+        li{
+           z-index: 7;
+            margin-right: 45px;
+            color: #6c757d;
+            &:hover{
+                color: black;
+            }
+            a{
+                color: rgb(177, 173, 173);
                
-//                 i{
+                i{
             
-//                     font-size: 15px;
-//                     color: rgb(177, 173, 173);
-//                     &:hover{
-//                         color: $text-color-white;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+                    font-size: 15px;
+                    // color: rgb(177, 173, 173);
+                    &:hover{
+                        color: $text-color-white;
+                    }
+                }
+            }
+        }
+    }
+}
 
-// #bashliq{
-//     // top: 45px;
-//     .navbar{
-//         .bashliq-nav{
-//             a{
+#bashliq{
+    
+    .navbar{
+        top: 45px;
+        .bashliq-nav{
+            a{
 
-//                 i{
-//                     margin-left: 40px;
-//                     font-size: 15px;
-//                     color:#fff;
-//                     &:hover{
+                i{
+                    margin-left: 40px;
+                    font-size: 15px;
+                    color:#fff;
+                    &:hover{
                     
-//                         color: rgb(177, 173, 173);
-//                     }
-//                 }
-//             }
-//         }
-//         .navbar-brand{
-//             width: 100px;
-//             display: inline-block;
-//             img{
-//                 width: 80px;
-//                 height: 30px;
-//             }
-//         }
-//     }
+                        color: rgb(177, 173, 173);
+                    }
+                }
+            }
+        }
+        .navbar-brand{
+            width: 100px;
+            display: inline-block;
+            img{
+                width: 80px;
+                height: 30px;
+            }
+        }
+    }
   
-//    .collapse{
+   .collapse{
 
-//         .navbar-nav{
-//             padding: 10px 0;
-//             .nav-item{
-//                 .nav-link{
-//                     font-size: 15px;
-//                     font-weight: 400;
-//                     font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
-//                     color: #fff;
-//                     &:hover{
-//                         color:  #767676;
-//                     }
-//                 }
-//             }
+        .navbar-nav{
+            padding: 10px 0;
+            .nav-item{
+                .nav-link{
+                    font-size: 15px;
+                    font-weight: 400;
+                    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+                    color: #fff;
+                    &:hover{
+                        color:  #767676;
+                    }
+                }
+            }
 
-//         }
-//    }
-// }
+        }
+   }
+}
 
 #shop{
     padding: 200px 0;
@@ -200,4 +202,24 @@ body{
         }
        }
     }
+}
+
+#bashliq .navbar.navbarlogin {
+    top: 45px;
+
+    background-color: white;
+}
+
+#bashliq .collapse .navbar-nav .nav-item .nav-link.nav-login {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    color: black;
+}
+
+
+#bashliq .navbar .bashliq-nav a i.logini {
+    margin-left: 40px;
+    font-size: 15px;
+    color: black;
 }
