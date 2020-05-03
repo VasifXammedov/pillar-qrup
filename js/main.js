@@ -87,7 +87,13 @@ $(document).ready(function () {
     });
 
 
-
+    $(".modal-click").click(function(e){
+        e.preventDefault()
+        $(".modal-container").css("display","block")
+    });
+    $(".close").click(function(){
+        $(".modal-container").css("display","none")
+    })
 
 
 

@@ -1374,6 +1374,40 @@ body {
   color: #767676;
 }
 
+#bashliq .modal-container {
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  z-index: 2000;
+}
+
+#bashliq .modal-container .modal-1 {
+  margin-top: 45%;
+}
+
+#bashliq .modal-container .modal-1 input {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  z-index: 2001;
+}
+
+#bashliq .modal-container .modal-1 span {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+#bashliq .modal-container .close {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: white;
+  opacity: .5;
+}
+
 .scrolled {
   top: 0;
   -webkit-transition: all 0.5s;
