@@ -248,6 +248,7 @@
 }
 
 #customer {
+  position: relative;
   padding: 100px 0px;
   background-image: url(../img/hero/hero2.jpg);
   background-attachment: fixed;
@@ -275,7 +276,7 @@
 }
 
 #customer .customer-1 i {
-  font-size: 4em;
+  font-size: 64px;
 }
 
 #customer .customer-1 h3 {
@@ -338,7 +339,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;
-  margin-bottom: 2.36363636363636em;
+  margin-bottom: 38px;
 }
 
 #user .user1 .user4_right p {
@@ -492,7 +493,7 @@
 }
 
 #owl-corusel .item img {
-  max-height: 1.625em;
+  max-height: 26px;
   opacity: .3;
   margin: 0;
 }
@@ -646,6 +647,12 @@
   z-index: 4;
   bottom: 25px;
   padding-top: 12px;
+}
+
+#footer .finish a:hover {
+  bottom: 32px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 #footer .finish a i {
@@ -1141,8 +1148,7 @@ body {
   font-weight: 400;
 }
 
-#bags .list-items li {
-  width: 80px;
+#bags .list-item li {
   margin-right: 30px;
   cursor: pointer;
   text-transform: capitalize;
@@ -1152,59 +1158,72 @@ body {
   font-weight: 400;
 }
 
-#bags .list-items li:hover {
+#bags .list-item li:hover {
   color: #767676;
 }
 
-#bags a {
+#bags .card-9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#bags .card-9 .card-10 {
+  width: 33.33%;
+  padding: 10px;
+}
+
+#bags .card-9 .card-10 a {
   text-decoration: none;
   color: #232323;
 }
 
-#bags a .card {
+#bags .card-9 .card-10 a .card {
   position: relative;
   margin-bottom: 30px;
   border: none;
 }
 
-#bags a .card:hover {
+#bags .card-9 .card-10 a .card:hover {
   -webkit-box-shadow: 3px -1px 4px 11px rgba(0, 0, 0, 0.05);
   box-shadow: 3px -1px 4px 11px rgba(0, 0, 0, 0.05);
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
-#bags a .card .card__body {
+#bags .card-9 .card-10 a .card .card__body {
   padding: 39px;
   background: #fff;
 }
 
-#bags a .card .card__body .card__title h6 {
+#bags .card-9 .card-10 a .card .card__body .card__title h6 {
   opacity: .3;
   margin-bottom: 10px;
   max-height: 26px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;
-  font-size: 0.625em;
-  line-height: 2.6em;
+  font-size: 10px;
+  line-height: 42px;
 }
 
-#bags a .card .card__body .card__title h5 {
+#bags .card-9 .card-10 a .card .card__body .card__title h5 {
   margin-bottom: 0;
-  max-height: 1.625em;
-  font-size: 1em;
-  line-height: 1.625em;
+  max-height: 26px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
-#bags a .card .card__body .card__price {
+#bags .card-9 .card-10 a .card .card__body .card__price {
   position: absolute;
-  top: 2.4375em;
-  right: 2.4375em;
+  top: 39px;
+  right: 39px;
   margin-top: 300px;
 }
 
-#bags a .card .card__body .card__price .type--strikethrough {
+#bags .card-9 .card-10 a .card .card__body .card__price .type--strikethrough {
   opacity: .5;
   display: block;
   color: #767676;
@@ -1273,7 +1292,7 @@ body {
 }
 
 #login .telefon img {
-  max-height: 3.25em;
+  max-height: 52px;
 }
 
 #login .telefon p {

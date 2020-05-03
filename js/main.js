@@ -69,8 +69,8 @@ $(document).ready(function () {
     });
 
 
-    $(".container").isotope({
-        itemSelector: "card-7",
+    $(".card-9").isotope({
+        itemSelector: ".card-10",
         layotMode : "fitRows",
     });
     
@@ -80,7 +80,7 @@ $(document).ready(function () {
         $(".menu ul li").removeClass("active");
         $(this).addClass("active");
         var select = $(this).attr("data-filter");
-        $(".container").isotope({
+        $(".card-9").isotope({
             filter : select
         });
         return false

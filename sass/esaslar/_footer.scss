@@ -30,9 +30,7 @@
                 opacity: .5;
                 transition: 0.2s linear;
                 text-decoration: none;
-                span{
-
-                }
+               
             }
         }
     }
@@ -86,9 +84,7 @@
                
             }
         }
-        .list-items{
-
-        }
+       
     }
     .finish{
         
@@ -103,6 +99,10 @@
             z-index: 4;
             bottom: 25px;
             padding-top: 12px;
+            &:hover{
+                bottom: 32px;
+                transition: all 0.3s;
+            }
             i{
                
                 color: white;

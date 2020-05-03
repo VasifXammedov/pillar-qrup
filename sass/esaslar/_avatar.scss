@@ -3,10 +3,6 @@
         .category-item {
             position: relative;
             transition: all 0.6s;
-            img{ 
-            
-            
-            }
             .overley{
                 position: absolute;
                 width: 100%;
@@ -36,8 +32,6 @@
                     top: 43%;
                 }
                 .list-items{
-                    // top: 290px;
-                    // left: 415px;
                     margin-top: 341px;
                     margin-right: 129px;
                    
@@ -46,11 +40,7 @@
                         li{
                            
                             a{
-                                color: $text-color-white;
-                                i{
-
-                                }
-                               
+                                color: $text-color-white; 
                             }
                         }
                      }
