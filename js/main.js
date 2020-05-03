@@ -26,7 +26,7 @@ $(document).ready(function () {
             
     
             $("#bashliq .bashliq-nav  a i.logini").css("color", "black");
-            $("#bashliq .navbar-brand  img").attr("src", "./img/logo.png");
+            // $("#bashliq .navbar-brand  img").attr("src", "./img/logo.png");
     
     
         }

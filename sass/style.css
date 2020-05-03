@@ -1339,6 +1339,21 @@ body {
   border-bottom: solid 1px rgba(255, 255, 255, 0.1);
 }
 
+#bashliq .navbar .bashliq-nav .modal-click {
+  position: relative;
+  text-align: right;
+}
+
+#bashliq .navbar .bashliq-nav .modal-click::after {
+  content: "";
+  width: 1px;
+  height: 70px;
+  position: absolute;
+  background-color: gray;
+  top: -23px;
+  left: 0;
+}
+
 #bashliq .navbar .bashliq-nav a i {
   margin-left: 40px;
   font-size: 15px;
